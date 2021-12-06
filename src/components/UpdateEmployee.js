@@ -56,7 +56,7 @@ export default function UpdateEmployee() {
             <h1>Update Employee</h1>
 
             <hr />
-            
+
             <FormGroup onSubmit={onSubmit}>
                 <div class="form-group">
                     <label>ID: </label>
@@ -104,7 +104,7 @@ export default function UpdateEmployee() {
                 <br />
 
                 <div class="btn-group">
-                <Button class="btn btn-primary btn-sm" type="submit">Save</Button>
+                <Button class="btn btn-primary btn-sm" type="submit" onClick={onSubmit}>Save</Button>
                 <Button class="btn btn-primary btn-sm" onClick={onCancel}>Go Back</Button>
                 </div>
             </FormGroup>

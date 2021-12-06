@@ -63,7 +63,7 @@ export default function AddEmployee() {
 
             <hr />
             
-            <FormGroup  onSubmit={onSubmit}>
+            <FormGroup>
                 <div class="form-group">
                     <label>Id: </label>
                     <input 
@@ -111,7 +111,7 @@ export default function AddEmployee() {
                 <br/>
 
                 <div class="btn-group">
-                <Button class="btn btn-primary btn-sm" type="submit">Save</Button>
+                <Button class="btn btn-primary btn-sm" type="submit" onClick={onSubmit}>Save</Button>
                 <Button class="btn btn-primary btn-sm" onClick={onCancel}>Cancel</Button>
                 </div>
             </FormGroup>
